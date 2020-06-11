@@ -32,7 +32,6 @@ function search(searchValue){
                 carousel.classList.add("hideDiv");
                 description.classList.add("hideDiv");
                 gameCard[i].classList.remove("hideDiv");
-                console.log(gameName[j]);
                 allDivShowBoolean=false;
                 break;
             }
