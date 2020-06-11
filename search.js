@@ -8,11 +8,13 @@ let gameCardName=document.querySelectorAll(".gameCard h4 a");
 searchBtn.addEventListener("click",()=>{
     let searchValue=document.querySelector("#search").value.toLocaleLowerCase();
     search(searchValue);
+    window.scrollTo(0,0);
 })
 
 searchBtn2.addEventListener("click",()=>{
     let searchValue=document.querySelector("#search2").value.toLocaleLowerCase();
     search(searchValue);
+    window.scrollTo(0,0);
 })
 
 function search(searchValue){
